@@ -1,0 +1,164 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.keyboard{
+	margin: 0 auto;
+	width: 672px;
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 5px;
+	position: relative;
+}
+
+.keyboard:first-child .key{
+	margin: 150px;
+}
+
+ .line:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+.key{
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 5px;
+	font-weight: bold;
+	
+}
+
+.enter_button{
+	position: absolute;
+	right: 7px;
+	top: 51px;
+	
+}
+
+.enter_button .key{
+	margin: 0px 0px 0px 0px;
+	
+}
+
+.enter_button .key:first-child{
+	border: none;
+	display: none;
+	
+}
+
+.enter_button .key:nth-child(2){
+	width:  55px;
+	border-bottom: none;
+	height: 44px;
+	margin-left: 40px;
+	
+}
+
+.enter_button .key:nth-child(3){
+	border-right: none;
+	font-size: 23px;
+	line-height: 20px;
+	padding-left: 10px;
+	
+	
+}
+.enter_button .key:nth-child(4){
+	border-left: none;
+	border-top: none;
+	width:  55px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	
+
+}
+
+.clear{
+	clear: both;
+}
+
+.spacebar{
+	width: 267px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 9px;
+}
+
+.caps_lock{
+	width: 73px;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 9px;
+}
+
+.shift{
+	width: 106px;
+	font-size: 12px;
+	padding-top: 9px;
+}
+
+.tab{
+	width: 68px;
+	font-size: 12px;
+	padding-top: 9px;
+}
+
+.ctrl{
+	width: 60px;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 9px;
+}
+
+.alt{
+	width: 60px;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 9px;
+}
+
+.windows{
+	width: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 9px;
+
+}
+
+.keys_color{
+	background-color: rgba(94, 253, 89, 0.774);
+	
+}
+
+.key_caps{
+	background-color: rgba(68, 68, 68, 0.288);
+}

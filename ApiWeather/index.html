@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__text">
+						<h1>Прогноз погоды всего мира</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="fone__picture"></div>
+			<div class="userinfo">
+				<div class='container'>
+					<div class="userinfo__row">
+						<select name="countries" id="user">
+							<option value="Brazil">Бразилия</option>
+							<option value="bobr">Бобруйск</option>
+							<option value="kla">Клайпеда</option>
+							<option value="bolg">Болгария</option>
+							<option value="mos">Москва</option>
+							<option value="Spain">Испания</option>
+							<option value="Egypt">Египет</option>
+							<option value="France">Франция</option>
+							<option value="Argentina">Аргентина</option>
+							<option value="Italy">Италия</option>
+							<option value="Canada">Канада</option>
+							<option value="Georgia">Греция</option>
+							<option value="Iraq">Ирак</option>
+						</select>
+						<button class="button">Ввод</button>
+					</div>
+				</div>
+			</div>
+			<div class="weather-block">
+				<div class="container">
+					<div class="weather-block__row">
+						<div class="weather-block__card">
+							<div class="card__row">
+								<div class="img"></div>
+								<p class="weather "></p>
+								<p class="humidity"></p>
+								<p class="pressure"></p>
+								<p class="temp"></p>
+								<p class="wind"></p>
+							</div>
+							<p class="city"></p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__text">
+						<p>- получаем прогноз погоды по API -</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
